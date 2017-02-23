@@ -16,9 +16,10 @@
   
     sudo systemctl disable systemd-resolved.service
     
-    sudo vim.tiny  /etc/dhcp/dhclient.conf
+    sudo vim.tiny /etc/dhcp/dhclient.conf
     
-    supersede domain-name-servers 168.95.1.1;
+    supersede domain-name-servers 168.95.1.1, 8.8.8.8;
+    prepend domain-name-servers 192.168.0.1;
 
     
 ## Power
