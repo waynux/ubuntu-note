@@ -11,6 +11,8 @@
 ## DNS
 
     sudo vim.tiny /etc/NetworkManager/NetworkManager.conf
+    
+    dns=none
   
     sudo vim.tiny /etc/resolv.conf
   
