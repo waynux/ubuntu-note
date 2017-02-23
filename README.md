@@ -16,6 +16,11 @@
   
     sudo systemctl disable systemd-resolved.service
     
+    sudo vim.tiny  /etc/dhcp/dhclient.conf
+    
+    supersede domain-name-servers 168.95.1.1;
+
+    
 ## Power
 
   cpufreq-set -g {powersave, userspace, ondemand, conservative, performance}
@@ -25,3 +30,5 @@
     cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
     
     cat /sys/devices/system/cpu/*/cpufreq/scaling_cur_freq
+    
+    
