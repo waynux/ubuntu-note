@@ -56,3 +56,11 @@
     
     xfce4-power-manager &
     
+## Command
+
+    nmtui-connect
+   
+    tig status
+    
+    
+    
