@@ -46,3 +46,13 @@
     
     git config --global alias.cm commit
     
+## /etc/xdg/openbox/autostart
+
+    chromium-browser &
+    
+    xinput --disable 14 &
+    
+    sakura -r 40 -c 120 &
+    
+    xfce4-power-manager &
+    
