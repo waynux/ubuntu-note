@@ -2,7 +2,7 @@
 
 ## Packages
 
-    gitg cpufrequtils fonts-inconsolata fonts-wqy-microhei faba-icon-theme hime
+    gitg cpufrequtils fonts-inconsolata fonts-wqy-microhei faba-icon-theme hime openbox-lxde-session adwaita-icon-theme-full
     
 ## Grub
 
