@@ -2,7 +2,7 @@
 
 ## Packages
 
-    gitg cpufrequtils fonts-inconsolata fonts-wqy-microhei faba-icon-theme hime openbox-lxde-session adwaita-icon-theme-full
+    gitg cpufrequtils fonts-inconsolata fonts-wqy-microhei faba-icon-theme hime openbox-lxde-session adwaita-icon-theme-full terminator
     
 ## Grub
 
@@ -56,11 +56,16 @@
     
     xfce4-power-manager &
     
+    terminator -f &
+    
 ## Command
 
     nmtui-connect
    
     tig status
+    
+    printf "\e]2; wow \a"
+    
     
     
     
