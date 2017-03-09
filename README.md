@@ -2,7 +2,7 @@
 
 ## Packages
 
-    gitg cpufrequtils fonts-inconsolata fonts-wqy-microhei faba-icon-theme hime openbox-lxde-session adwaita-icon-theme-full terminator
+    fonts-inconsolata faba-icon-theme hime openbox-lxde-session adwaita-icon-theme-full terminator xfce4-notifyd xfce4-power-manager
     
 ## Grub
 
