@@ -66,6 +66,14 @@
     
     printf "\e]2; wow \a"
     
+## Console
+
+   sudo vim.tiny /etc/systemd/logind.conf
+
+   NAutoVTs=1
+   
+   ReserveVT=1
+    
     
     
     
