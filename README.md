@@ -85,6 +85,13 @@
           <scope>source.python</scope>
         </snippet>
 
-
+        {
+            "ensure_newline_at_eof_on_save": true,
+            "font_face": "Inconsolata",
+            "font_size": 17.0,
+            "tab_size": 2,
+            "translate_tabs_to_spaces": true,
+            "trim_trailing_white_space_on_save": true
+        }
 
     
