@@ -2,7 +2,7 @@
 
 ## Packages
 
-    fonts-inconsolata faba-icon-theme hime openbox-lxde-session adwaita-icon-theme-full terminator xfce4-notifyd xfce4-power-manager
+    fonts-inconsolata hime adwaita-icon-theme-full xfce4-notifyd xfce4-power-manager
     
 ## Grub
 
@@ -74,6 +74,17 @@
    
    ReserveVT=1
     
-    
-    
+## .config/sublime-text-3/Packages/User/pp.sublime-snippet
+
+        <snippet>
+          <content><![CDATA[
+        import pprint
+        pprint.pprint()
+          ]]></content>
+          <tabTrigger>pp</tabTrigger>
+          <scope>source.python</scope>
+        </snippet>
+
+
+
     
