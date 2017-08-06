@@ -2,7 +2,7 @@
 
 ## Packages
 
-    fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession lxdm
+    fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession lxdm adwaita-icon-theme
     
 ## Grub
 
