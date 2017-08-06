@@ -2,7 +2,7 @@
 
 ## Packages
 
-    fonts-inconsolata hime adwaita-icon-theme-full xfce4-notifyd xfce4-power-manager
+    fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession lxdm
     
 ## Grub
 
@@ -22,17 +22,6 @@
     
     supersede domain-name-servers 168.95.1.1, 8.8.8.8;
     prepend domain-name-servers 192.168.0.1;
-
-    
-## Power
-
-  cpufreq-set -g {powersave, userspace, ondemand, conservative, performance}
-
-    sudo cpufreq-set -c 2 -g powersave
-    
-    cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
-    
-    cat /sys/devices/system/cpu/*/cpufreq/scaling_cur_freq
     
 ## Git
 
@@ -50,13 +39,11 @@
 
     chromium-browser &
     
-    xinput --disable 14 &
-    
-    sakura -r 40 -c 120 &
+    #xinput --disable 14 &
     
     xfce4-power-manager &
     
-    terminator -f &
+    sakura -s &
     
 ## Command
 
@@ -86,12 +73,32 @@
         </snippet>
 
         {
+            "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
             "ensure_newline_at_eof_on_save": true,
+            "file_exclude_patterns":
+            [
+                "main.js.map",
+                "main.js"
+            ],
+            "folder_exclude_patterns":
+            [
+                "e2e-report",
+                "node_modules",
+                ".git",
+                "dist",
+                "screenshots",
+                "manual"
+            ],
             "font_face": "Inconsolata",
             "font_size": 17.0,
+            "ignored_packages":
+            [
+                "Vintage"
+            ],
             "tab_size": 2,
             "translate_tabs_to_spaces": true,
             "trim_trailing_white_space_on_save": true
         }
+
 
     
