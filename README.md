@@ -82,9 +82,9 @@
     
 ## /etc/systemd/logind.conf
 
-   NAutoVTs=1
-   
-   ReserveVT=1
+    NAutoVTs=1
+
+    ReserveVT=1
     
 ## .config/sublime-text-3/Packages/User/pp.sublime-snippet
 
