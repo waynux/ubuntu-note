@@ -2,11 +2,11 @@
 
 ## .config/openbox/rc.xml
 
-<keybind key="A-F2"><action name="Execute"><command>grun</command></action></keybind>
+    <keybind key="A-F2"><action name="Execute"><command>grun</command></action></keybind>
 
-<keybind key="XF86AudioRaiseVolume"><action name="Execute"><command>amixer set Master 5%+</command></action></keybind>
+    <keybind key="XF86AudioRaiseVolume"><action name="Execute"><command>amixer set Master 5%+</command></action></keybind>
 
-<keybind key="XF86AudioLowerVolume"><action name="Execute"><command>amixer set Master 5%-</command></action></keybind>
+    <keybind key="XF86AudioLowerVolume"><action name="Execute"><command>amixer set Master 5%-</command></action></keybind>
 
 
 ## .bashrc
