@@ -1,8 +1,35 @@
 # ubuntu-note
 
+## .config/openbox/rc.xml
+
+<keybind key="A-F2"><action name="Execute"><command>grun</command></action></keybind>
+
+<keybind key="XF86AudioRaiseVolume"><action name="Execute"><command>amixer set Master 5%+</command></action></keybind>
+
+<keybind key="XF86AudioLowerVolume"><action name="Execute"><command>amixer set Master 5%-</command></action></keybind>
+
+
+## .bashrc
+
+    bind '"\e[A": history-search-backward'
+    bind '"\e[B": history-search-forward'
+    PS1="\n\[\e[33m\]\w > \[\e[m\]"
+    alias s='subl'
+
+
+## /etc/lightdm/lightdm.conf.d/10-autologin.conf
+
+    [Seat:*]
+    autologin-guest = false
+    autologin-user = wayne
+    autologin-user-timeout = 0
+
+    [SeatDefaults]
+    allow-guest = false
+
 ## Packages
 
-    fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession lxdm adwaita-icon-theme
+    --no-install-recommends fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession adwaita-icon-theme gtk2-engines gtk2-engines-murrine gtk2-engines-pixbuf hime-gtk2-immodule hime-gtk3-immodule policykit-desktop-privileges gvfs 
     
 ## Grub
 
