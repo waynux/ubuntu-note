@@ -86,6 +86,10 @@
 
     ReserveVT=1
     
+## id3v2 -D *.mp3
+
+    curl -T 1.mp3 ftp://192.168.0.103:2121/Download/
+    
 ## .config/sublime-text-3/Packages/User/pp.sublime-snippet
 
         <snippet>
