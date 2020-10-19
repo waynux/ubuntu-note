@@ -1,5 +1,8 @@
 # ubuntu-note
 
+## autologin
+    sudo gpasswd -d $USER nopasswdlogin
+
 ## .config/openbox/rc.xml
 
     <keybind key="A-F2"><action name="Execute"><command>grun</command></action></keybind>
