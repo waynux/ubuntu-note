@@ -1,7 +1,7 @@
 # ubuntu-note
 
 ## autologin
-    sudo gpasswd -d $USER nopasswdlogin
+    sudo gpasswd -a $USER nopasswdlogin
 
 ## .config/openbox/rc.xml
 
