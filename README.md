@@ -3,7 +3,7 @@
 ## autologin
     sudo gpasswd -a $USER nopasswdlogin
 
-## .config/openbox/rc.xml
+## .config/openbox/rc.xml or /etx/xdg/openbox/rc.xml
 
     <keybind key="A-F2"><action name="Execute"><command>grun</command></action></keybind>
 
@@ -32,7 +32,7 @@
 
 ## Packages
 
-    --no-install-recommends fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession adwaita-icon-theme gtk2-engines gtk2-engines-murrine gtk2-engines-pixbuf hime-gtk2-immodule hime-gtk3-immodule policykit-desktop-privileges gvfs 
+    sudo apt --no-install-recommends fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession adwaita-icon-theme gtk2-engines gtk2-engines-murrine gtk2-engines-pixbuf hime-gtk2-immodule hime-gtk3-immodule policykit-desktop-privileges gvfs firefox im-config curl sakura
     
 ## Grub
 
@@ -53,6 +53,17 @@
     supersede domain-name-servers 168.95.1.1, 8.8.8.8;
     prepend domain-name-servers 192.168.0.1;
     
+## sudo vim.tiny /etc/netplan/00-installer-config.yaml
+    
+    network:
+      version: 2
+      renderer: networkd
+      ethernets:
+        enp0s3:
+          dhcp4: true
+          optional: true
+    
+    
 ## Git
 
     git config --global push.default current
@@ -67,7 +78,7 @@
     
 ## /etc/xdg/openbox/autostart
 
-    chromium-browser &
+    brave-browser &
     
     #xinput --disable 14 &
     
@@ -76,6 +87,8 @@
     sakura -s &
     
 ## Command
+
+    im-config -n hime
 
     nmtui-connect
    
@@ -114,12 +127,9 @@
             ],
             "folder_exclude_patterns":
             [
-                "e2e-report",
                 "node_modules",
                 ".git",
                 "dist",
-                "screenshots",
-                "manual"
             ],
             "font_face": "Inconsolata",
             "font_size": 17.0,
