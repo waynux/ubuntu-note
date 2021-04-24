@@ -3,7 +3,17 @@
 ## autologin
     sudo gpasswd -a $USER nopasswdlogin
 
+## .config/openbox/screenshot.sh
+
+    scrot -s /tmp/foo.png -e 'xclip -selection c -t image/png < $f'     
+
 ## .config/openbox/rc.xml or /etx/xdg/openbox/rc.xml
+    
+    <keybind key="A-F3">
+      <action name="Execute">
+        <command>sh .config/openbox/screenshot.sh</command>
+      </action>
+    </keybind>
 
     <keybind key="A-F2"><action name="Execute"><command>grun</command></action></keybind>
 
