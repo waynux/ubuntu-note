@@ -42,7 +42,7 @@
 
 ## Packages
 
-    sudo apt --no-install-recommends fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession adwaita-icon-theme gtk2-engines gtk2-engines-murrine gtk2-engines-pixbuf hime-gtk2-immodule hime-gtk3-immodule policykit-desktop-privileges gvfs firefox im-config curl sakura
+    sudo apt --no-install-recommends tlp tlp-rdw fonts-inconsolata hime xfce4-notifyd xfce4-power-manager obsession adwaita-icon-theme gtk2-engines gtk2-engines-murrine gtk2-engines-pixbuf hime-gtk2-immodule hime-gtk3-immodule policykit-desktop-privileges gvfs firefox im-config curl sakura
     
 ## Grub
 
